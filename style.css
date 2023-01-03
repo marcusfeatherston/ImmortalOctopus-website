@@ -1,3 +1,18 @@
 body {
-  background-color: blue;
+  background: rgb(77, 68, 68);
+  color: orange;
+  width: 1280px;
+  margin: 0 auto;
+  text-align: center;
 }
+
+div {
+  width: 100%;
+  
+}
+
+img {
+max-width: 100%;
+}
+
+
