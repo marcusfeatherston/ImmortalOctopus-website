@@ -1,18 +1,26 @@
 body {
   background: rgb(77, 68, 68);
   color: orange;
-  width: 1280px;
+  max-width: 1280px;
   margin: 0 auto;
+  padding:  10px;
   text-align: center;
 }
 
 div {
   width: 100%;
-  
+}
+
+h1 {
+  font-size: 48px;
+}
+
+p {
+  font-size: 30px;
 }
 
 img {
-max-width: 100%;
-}
+  max-width: 100%;
+  }
 
 

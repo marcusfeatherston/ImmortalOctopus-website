@@ -1,6 +1,16 @@
-const h2 = document.createElement("h2");
-h2.textContent = "This content added by JavaScript";
+const image = document.querySelector("img");
 
-document.querySelector("body").appendChild(h2);
+function onHover() {
+      image.style.opacity = "0.5"
+}
+
+function onExit() {
+      image.style.opacity = "1.0"
+}
+
+
+image.addEventListener("mouseenter", onHover);
+
+image.addEventListener("mouseout", onExit);
 
 
